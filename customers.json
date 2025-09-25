@@ -15,7 +15,7 @@
       "description": "Customer attempted to complete a purchase using a valid credit card that has sufficient funds, but the transaction was declined during the checkout process. Error messages were unclear, and multiple attempts with different cards also failed. Issue may be tied to payment gateway or fraud detection rules.",
       "customer": "Brian Kim",
       "priority": "Medium Priority",
-      "status": "In-Progress",
+      "status": "Open",
       "createdAt": "2025-09-23"
     },
     {
@@ -33,7 +33,7 @@
       "description": "When users attempt to update their account details—such as email or password—on the settings page, the application crashes unexpectedly. The crash occurs immediately after hitting 'Save Changes', with no data being updated. The issue affects multiple users on both web and mobile platforms.",
       "customer": "David Lee",
       "priority": "High Priority",
-      "status": "Resolved",
+      "status": "Open",
       "createdAt": "2025-09-20"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Upon opening the Android version of the app, it immediately freezes on the loading screen. Users have attempted clearing cache and reinstalling the app, but the issue persists. Logs show potential memory leaks or conflicts with device OS updates. Issue started after version 5.2.1 release.",
       "customer": "Felix Zhang",
       "priority": "Critical",
-      "status": "In-Progress",
+      "status": "Open",
       "createdAt": "2025-09-21"
     },
     {
@@ -69,7 +69,7 @@
       "description": "User is confused about how the analytics dashboard tracks and displays metrics such as conversion rate, user retention, and engagement. Documentation appears insufficient or outdated. The customer is requesting a walkthrough or updated guide to better utilize this feature.",
       "customer": "Hassan Ali",
       "priority": "Low Priority",
-      "status": "Resolved",
+      "status": "Open",
       "createdAt": "2025-09-18"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Customer is requesting a full export of all their account-related data in CSV format, including purchase history, preferences, and usage logs. This may be for personal backup or data portability under GDPR-like regulations. The request was submitted through the settings page.",
       "customer": "Ivy Chen",
       "priority": "Medium Priority",
-      "status": "Closed",
+      "status": "Open",
       "createdAt": "2025-09-17"
     },
     {
@@ -87,7 +87,7 @@
       "description": "Customer reports that the website homepage takes over 15 seconds to load fully on both desktop and mobile browsers. The issue appears to be worse during peak traffic hours. Likely causes include unoptimized scripts, excessive image sizes, or CDN latency.",
       "customer": "Jack Morgan",
       "priority": "Medium Priority",
-      "status": "In-Progress",
+      "status": "Open",
       "createdAt": "2025-09-16"
     },
     {
@@ -105,7 +105,7 @@
       "description": "Customer accidentally created two accounts using the same email address. This has led to confusion during login, with alternating access to different data sets. Merging of accounts or deletion of one is required to restore a consistent user experience.",
       "customer": "Liam Patel",
       "priority": "High Priority",
-      "status": "In-Progress",
+      "status": "Open",
       "createdAt": "2025-09-14"
     },
     {
@@ -114,7 +114,7 @@
       "description": "Customer's premium subscription was canceled without any request or prior notification. Their account lost premium features suddenly, and billing history does not show any refund or termination reason. This could be due to a backend automation or failed payment retry logic.",
       "customer": "Maria Gonzales",
       "priority": "Medium Priority",
-      "status": "Resolved",
+      "status": "Open",
       "createdAt": "2025-09-13"
     },
     {
@@ -132,7 +132,7 @@
       "description": "Customer is attempting to upload a profile photo but receives an error message stating the file format is unsupported. File meets the standard JPEG/PNG size and resolution requirements. May be caused by MIME type mismatch or frontend validation error.",
       "customer": "Olivia Russo",
       "priority": "Low Priority",
-      "status": "Resolved",
+      "status": "Open",
       "createdAt": "2025-09-11"
     },
     {
@@ -141,7 +141,7 @@
       "description": "Customer reports that changes made on the mobile app (e.g., notes, settings) do not appear on their desktop app, indicating a sync failure. Internet connection is stable. Possibly due to background sync process not triggering or outdated local cache versions.",
       "customer": "Paul Nguyen",
       "priority": "Medium Priority",
-      "status": "In-Progress",
+      "status": "Open",
       "createdAt": "2025-09-10"
     },
     {
@@ -168,7 +168,7 @@
       "description": "Customer is receiving repetitive notification emails multiple times a day for the same event (e.g., comment replies, order status). This leads to inbox clutter and frustration. Likely tied to a notification system loop or missed de-duplication logic.",
       "customer": "Sofia Bell",
       "priority": "Low Priority",
-      "status": "Closed",
+      "status": "Open",
       "createdAt": "2025-09-07"
     },
     {
