@@ -1,183 +1,184 @@
-{"issues":[
-  {
-    "id": "CSZ-1001",
-    "title": "Login issue on mobile app",
-    "description": "Customer cannot log in via the mobile application.",
-    "customer": "Samantha Reed",
-    "priority": "High",
-    "status": "Open",
-    "createdAt": "2025-09-24"
-  },
-  {
-    "id": "CSZ-1002",
-    "title": "Payment declined unexpectedly",
-    "description": "Customer reports valid card being declined during checkout.",
-    "customer": "Liam Brooks",
-    "priority": "Medium",
-    "status": "In Progress",
-    "createdAt": "2025-09-23"
-  },
-  {
-    "id": "CSZ-1003",
-    "title": "Order not delivered",
-    "description": "Customer’s order hasn't arrived after 10 days.",
-    "customer": "Isla Parker",
-    "priority": "Critical",
-    "status": "Open",
-    "createdAt": "2025-09-22"
-  },
-  {
-    "id": "CSZ-1004",
-    "title": "Bug in settings page",
-    "description": "Changing account info causes a page crash.",
-    "customer": "Noah Bennett",
-    "priority": "High",
-    "status": "Resolved",
-    "createdAt": "2025-09-20"
-  },
-  {
-    "id": "CSZ-1005",
-    "title": "Unable to reset password",
-    "description": "Password reset email is never received.",
-    "customer": "Olivia Turner",
-    "priority": "High",
-    "status": "Open",
-    "createdAt": "2025-09-25"
-  },
-  {
-    "id": "CSZ-1006",
-    "title": "App freezes on launch",
-    "description": "Android app freezes immediately after opening.",
-    "customer": "Lucas Morgan",
-    "priority": "Critical",
-    "status": "In Progress",
-    "createdAt": "2025-09-21"
-  },
-  {
-    "id": "CSZ-1007",
-    "title": "Incorrect billing amount",
-    "description": "Charged double for a single purchase.",
-    "customer": "Chloe Adams",
-    "priority": "High",
-    "status": "Open",
-    "createdAt": "2025-09-19"
-  },
-  {
-    "id": "CSZ-1008",
-    "title": "Need feature explanation",
-    "description": "User confused about how the analytics dashboard works.",
-    "customer": "Mason Carter",
-    "priority": "Low",
-    "status": "Resolved",
-    "createdAt": "2025-09-18"
-  },
-  {
-    "id": "CSZ-1009",
-    "title": "Request for data export",
-    "description": "Customer wants all their data exported in CSV format.",
-    "customer": "Ava Scott",
-    "priority": "Medium",
-    "status": "Closed",
-    "createdAt": "2025-09-17"
-  },
-  {
-    "id": "CSZ-1010",
-    "title": "Website loads slowly",
-    "description": "Homepage takes more than 15 seconds to load.",
-    "customer": "Ethan Gray",
-    "priority": "Medium",
-    "status": "In Progress",
-    "createdAt": "2025-09-16"
-  },
-  {
-    "id": "CSZ-1011",
-    "title": "Missing invoice email",
-    "description": "Customer didn't receive the invoice for last purchase.",
-    "customer": "Zoe Hall",
-    "priority": "Low",
-    "status": "Open",
-    "createdAt": "2025-09-15"
-  },
-  {
-    "id": "CSZ-1012",
-    "title": "Duplicate account problem",
-    "description": "Two accounts created with the same email address.",
-    "customer": "James King",
-    "priority": "High",
-    "status": "In Progress",
-    "createdAt": "2025-09-14"
-  },
-  {
-    "id": "CSZ-1013",
-    "title": "Subscription canceled unexpectedly",
-    "description": "Premium subscription was canceled without request.",
-    "customer": "Grace Mitchell",
-    "priority": "Medium",
-    "status": "Resolved",
-    "createdAt": "2025-09-13"
-  },
-  {
-    "id": "CSZ-1014",
-    "title": "Security concern: suspicious login",
-    "description": "Customer received alert for unknown device login.",
-    "customer": "Henry Cooper",
-    "priority": "Critical",
-    "status": "Open",
-    "createdAt": "2025-09-12"
-  },
-  {
-    "id": "CSZ-1015",
-    "title": "Can't upload profile picture",
-    "description": "Image upload fails with a 'format not supported' error.",
-    "customer": "Lily Ward",
-    "priority": "Low",
-    "status": "Resolved",
-    "createdAt": "2025-09-11"
-  },
-  {
-    "id": "CSZ-1016",
-    "title": "App not syncing with cloud",
-    "description": "Changes made on mobile not reflected on desktop.",
-    "customer": "Leo Hughes",
-    "priority": "Medium",
-    "status": "In Progress",
-    "createdAt": "2025-09-10"
-  },
-  {
-    "id": "CSZ-1017",
-    "title": "Account deleted accidentally",
-    "description": "Customer claims account got deleted after settings update.",
-    "customer": "Aria Bell",
-    "priority": "Critical",
-    "status": "Open",
-    "createdAt": "2025-09-09"
-  },
-  {
-    "id": "CSZ-1018",
-    "title": "Feedback form not working",
-    "description": "Submit button on feedback form does nothing.",
-    "customer": "Jack Murphy",
-    "priority": "Low",
-    "status": "Open",
-    "createdAt": "2025-09-08"
-  },
-  {
-    "id": "CSZ-1019",
-    "title": "Email notifications too frequent",
-    "description": "Customer getting multiple emails per day for the same event.",
-    "customer": "Ella Foster",
-    "priority": "Low",
-    "status": "Closed",
-    "createdAt": "2025-09-07"
-  },
-  {
-    "id": "CSZ-1020",
-    "title": "Promo code not applied",
-    "description": "Discount code not reducing cart total as expected.",
-    "customer": "Daniel Richards",
-    "priority": "Medium",
-    "status": "Open",
-    "createdAt": "2025-09-06"
-  }
-]
+{
+  "issues": [
+    {
+      "id": "CSZ-1001",
+      "title": "Login issue on mobile app",
+      "description": "Customer cannot log in via the mobile application.",
+      "customer": "John Smith",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2025-09-24"
+    },
+    {
+      "id": "CSZ-1002",
+      "title": "Payment declined unexpectedly",
+      "description": "Customer reports valid card being declined during checkout.",
+      "customer": "John Smith",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2025-09-23"
+    },
+    {
+      "id": "CSZ-1003",
+      "title": "Order not delivered",
+      "description": "Customer’s order hasn't arrived after 10 days.",
+      "customer": "John Smith",
+      "priority": "Critical",
+      "status": "Open",
+      "createdAt": "2025-09-22"
+    },
+    {
+      "id": "CSZ-1004",
+      "title": "Bug in settings page",
+      "description": "Changing account info causes a page crash.",
+      "customer": "John Smith",
+      "priority": "High",
+      "status": "Resolved",
+      "createdAt": "2025-09-20"
+    },
+    {
+      "id": "CSZ-1005",
+      "title": "Unable to reset password",
+      "description": "Password reset email is never received.",
+      "customer": "John Smith",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2025-09-25"
+    },
+    {
+      "id": "CSZ-1006",
+      "title": "App freezes on launch",
+      "description": "Android app freezes immediately after opening.",
+      "customer": "John Smith",
+      "priority": "Critical",
+      "status": "In Progress",
+      "createdAt": "2025-09-21"
+    },
+    {
+      "id": "CSZ-1007",
+      "title": "Incorrect billing amount",
+      "description": "Charged double for a single purchase.",
+      "customer": "John Smith",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2025-09-19"
+    },
+    {
+      "id": "CSZ-1008",
+      "title": "Need feature explanation",
+      "description": "User confused about how the analytics dashboard works.",
+      "customer": "John Smith",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2025-09-18"
+    },
+    {
+      "id": "CSZ-1009",
+      "title": "Request for data export",
+      "description": "Customer wants all their data exported in CSV format.",
+      "customer": "John Smith",
+      "priority": "Medium",
+      "status": "Closed",
+      "createdAt": "2025-09-17"
+    },
+    {
+      "id": "CSZ-1010",
+      "title": "Website loads slowly",
+      "description": "Homepage takes more than 15 seconds to load.",
+      "customer": "John Smith",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2025-09-16"
+    },
+    {
+      "id": "CSZ-1011",
+      "title": "Missing invoice email",
+      "description": "Customer didn't receive the invoice for last purchase.",
+      "customer": "John Smith",
+      "priority": "Low",
+      "status": "Open",
+      "createdAt": "2025-09-15"
+    },
+    {
+      "id": "CSZ-1012",
+      "title": "Duplicate account problem",
+      "description": "Two accounts created with the same email address.",
+      "customer": "John Smith",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2025-09-14"
+    },
+    {
+      "id": "CSZ-1013",
+      "title": "Subscription canceled unexpectedly",
+      "description": "Premium subscription was canceled without request.",
+      "customer": "John Smith",
+      "priority": "Medium",
+      "status": "Resolved",
+      "createdAt": "2025-09-13"
+    },
+    {
+      "id": "CSZ-1014",
+      "title": "Security concern: suspicious login",
+      "description": "Customer received alert for unknown device login.",
+      "customer": "John Smith",
+      "priority": "Critical",
+      "status": "Open",
+      "createdAt": "2025-09-12"
+    },
+    {
+      "id": "CSZ-1015",
+      "title": "Can't upload profile picture",
+      "description": "Image upload fails with a 'format not supported' error.",
+      "customer": "John Smith",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2025-09-11"
+    },
+    {
+      "id": "CSZ-1016",
+      "title": "App not syncing with cloud",
+      "description": "Changes made on mobile not reflected on desktop.",
+      "customer": "John Smith",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2025-09-10"
+    },
+    {
+      "id": "CSZ-1017",
+      "title": "Account deleted accidentally",
+      "description": "Customer claims account got deleted after settings update.",
+      "customer": "John Smith",
+      "priority": "Critical",
+      "status": "Open",
+      "createdAt": "2025-09-09"
+    },
+    {
+      "id": "CSZ-1018",
+      "title": "Feedback form not working",
+      "description": "Submit button on feedback form does nothing.",
+      "customer": "John Smith",
+      "priority": "Low",
+      "status": "Open",
+      "createdAt": "2025-09-08"
+    },
+    {
+      "id": "CSZ-1019",
+      "title": "Email notifications too frequent",
+      "description": "Customer getting multiple emails per day for the same event.",
+      "customer": "John Smith",
+      "priority": "Low",
+      "status": "Closed",
+      "createdAt": "2025-09-07"
+    },
+    {
+      "id": "CSZ-1020",
+      "title": "Promo code not applied",
+      "description": "Discount code not reducing cart total as expected.",
+      "customer": "John Smith",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2025-09-06"
+    }
+  ]
 }
