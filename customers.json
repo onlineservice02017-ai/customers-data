@@ -3,7 +3,7 @@
     {
       "id": "CSZ-1001",
       "title": "Login issue on mobile app",
-      "description": "Customer cannot log in via the mobile application.",
+      "description": "Customer reports being unable to log in through the mobile application on both Android and iOS platforms. The login screen either fails to respond or returns a generic 'login failed' error despite correct credentials being used. The issue started after the latest app update and has persisted across multiple devices and network conditions.",
       "customer": "Alice Johnson",
       "priority": "High Priority",
       "status": "Open",
@@ -12,7 +12,7 @@
     {
       "id": "CSZ-1002",
       "title": "Payment declined unexpectedly",
-      "description": "Customer reports valid card being declined during checkout.",
+      "description": "Customer attempted to complete a purchase using a valid credit card that has sufficient funds, but the transaction was declined during the checkout process. Error messages were unclear, and multiple attempts with different cards also failed. Issue may be tied to payment gateway or fraud detection rules.",
       "customer": "Brian Kim",
       "priority": "Medium Priority",
       "status": "In-Progress",
@@ -21,7 +21,7 @@
     {
       "id": "CSZ-1003",
       "title": "Order not delivered",
-      "description": "Customer’s order hasn't arrived after 10 days.",
+      "description": "Customer placed an order over 10 days ago and has not received it. Tracking information is either unavailable or shows no movement since the initial shipping confirmation. Attempts to contact support for status updates have gone unanswered, raising concerns about potential fulfillment or shipping partner issues.",
       "customer": "Carla Mendez",
       "priority": "Critical",
       "status": "Open",
@@ -30,7 +30,7 @@
     {
       "id": "CSZ-1004",
       "title": "Bug in settings page",
-      "description": "Changing account info causes a page crash.",
+      "description": "When users attempt to update their account details—such as email or password—on the settings page, the application crashes unexpectedly. The crash occurs immediately after hitting 'Save Changes', with no data being updated. The issue affects multiple users on both web and mobile platforms.",
       "customer": "David Lee",
       "priority": "High Priority",
       "status": "Resolved",
@@ -39,7 +39,7 @@
     {
       "id": "CSZ-1005",
       "title": "Unable to reset password",
-      "description": "Password reset email is never received.",
+      "description": "Customer has tried to reset their password multiple times but has not received any reset email. Checked spam/junk folders with no success. The issue appears to affect more than one user and may be tied to email service delays or backend logic failures in generating reset tokens.",
       "customer": "Emma Wright",
       "priority": "High Priority",
       "status": "Open",
@@ -48,7 +48,7 @@
     {
       "id": "CSZ-1006",
       "title": "App freezes on launch",
-      "description": "Android app freezes immediately after opening.",
+      "description": "Upon opening the Android version of the app, it immediately freezes on the loading screen. Users have attempted clearing cache and reinstalling the app, but the issue persists. Logs show potential memory leaks or conflicts with device OS updates. Issue started after version 5.2.1 release.",
       "customer": "Felix Zhang",
       "priority": "Critical",
       "status": "In-Progress",
@@ -57,7 +57,7 @@
     {
       "id": "CSZ-1007",
       "title": "Incorrect billing amount",
-      "description": "Charged double for a single purchase.",
+      "description": "Customer reports being charged twice for the same product purchase. Invoice history shows a duplicated transaction with identical timestamps and order IDs. The user is requesting a full refund for the duplicate charge and an explanation for the billing discrepancy.",
       "customer": "Grace Thompson",
       "priority": "High Priority",
       "status": "Open",
@@ -66,7 +66,7 @@
     {
       "id": "CSZ-1008",
       "title": "Need feature explanation",
-      "description": "User confused about how the analytics dashboard works.",
+      "description": "User is confused about how the analytics dashboard tracks and displays metrics such as conversion rate, user retention, and engagement. Documentation appears insufficient or outdated. The customer is requesting a walkthrough or updated guide to better utilize this feature.",
       "customer": "Hassan Ali",
       "priority": "Low Priority",
       "status": "Resolved",
@@ -75,7 +75,7 @@
     {
       "id": "CSZ-1009",
       "title": "Request for data export",
-      "description": "Customer wants all their data exported in CSV format.",
+      "description": "Customer is requesting a full export of all their account-related data in CSV format, including purchase history, preferences, and usage logs. This may be for personal backup or data portability under GDPR-like regulations. The request was submitted through the settings page.",
       "customer": "Ivy Chen",
       "priority": "Medium Priority",
       "status": "Closed",
@@ -84,7 +84,7 @@
     {
       "id": "CSZ-1010",
       "title": "Website loads slowly",
-      "description": "Homepage takes more than 15 seconds to load.",
+      "description": "Customer reports that the website homepage takes over 15 seconds to load fully on both desktop and mobile browsers. The issue appears to be worse during peak traffic hours. Likely causes include unoptimized scripts, excessive image sizes, or CDN latency.",
       "customer": "Jack Morgan",
       "priority": "Medium Priority",
       "status": "In-Progress",
@@ -93,7 +93,7 @@
     {
       "id": "CSZ-1011",
       "title": "Missing invoice email",
-      "description": "Customer didn't receive the invoice for last purchase.",
+      "description": "Customer did not receive an invoice email after completing a recent purchase. The purchase confirmation email was received, but the invoice PDF attachment was missing. This is affecting expense reporting and accounting on the customer’s end.",
       "customer": "Kaitlyn Rivera",
       "priority": "Low Priority",
       "status": "Open",
@@ -102,7 +102,7 @@
     {
       "id": "CSZ-1012",
       "title": "Duplicate account problem",
-      "description": "Two accounts created with the same email address.",
+      "description": "Customer accidentally created two accounts using the same email address. This has led to confusion during login, with alternating access to different data sets. Merging of accounts or deletion of one is required to restore a consistent user experience.",
       "customer": "Liam Patel",
       "priority": "High Priority",
       "status": "In-Progress",
@@ -111,7 +111,7 @@
     {
       "id": "CSZ-1013",
       "title": "Subscription canceled unexpectedly",
-      "description": "Premium subscription was canceled without request.",
+      "description": "Customer's premium subscription was canceled without any request or prior notification. Their account lost premium features suddenly, and billing history does not show any refund or termination reason. This could be due to a backend automation or failed payment retry logic.",
       "customer": "Maria Gonzales",
       "priority": "Medium Priority",
       "status": "Resolved",
@@ -120,7 +120,7 @@
     {
       "id": "CSZ-1014",
       "title": "Security concern: suspicious login",
-      "description": "Customer received alert for unknown device login.",
+      "description": "Customer received an email alert indicating that their account was accessed from an unknown device or location. They did not initiate this login and are concerned their account may be compromised. MFA is not currently enabled on the account. Customer has requested immediate review and account lock.",
       "customer": "Noah Baker",
       "priority": "Critical",
       "status": "Open",
@@ -129,7 +129,7 @@
     {
       "id": "CSZ-1015",
       "title": "Can't upload profile picture",
-      "description": "Image upload fails with a 'format not supported' error.",
+      "description": "Customer is attempting to upload a profile photo but receives an error message stating the file format is unsupported. File meets the standard JPEG/PNG size and resolution requirements. May be caused by MIME type mismatch or frontend validation error.",
       "customer": "Olivia Russo",
       "priority": "Low Priority",
       "status": "Resolved",
@@ -138,7 +138,7 @@
     {
       "id": "CSZ-1016",
       "title": "App not syncing with cloud",
-      "description": "Changes made on mobile not reflected on desktop.",
+      "description": "Customer reports that changes made on the mobile app (e.g., notes, settings) do not appear on their desktop app, indicating a sync failure. Internet connection is stable. Possibly due to background sync process not triggering or outdated local cache versions.",
       "customer": "Paul Nguyen",
       "priority": "Medium Priority",
       "status": "In-Progress",
@@ -147,7 +147,7 @@
     {
       "id": "CSZ-1017",
       "title": "Account deleted accidentally",
-      "description": "Customer claims account got deleted after settings update.",
+      "description": "Customer claims their account was deleted or reset after modifying some settings. They lost access to their purchase history and saved data. No deletion request was made. This could be due to a bug in the account settings logic or a permissions error.",
       "customer": "Queenie Adams",
       "priority": "Critical",
       "status": "Open",
@@ -156,7 +156,7 @@
     {
       "id": "CSZ-1018",
       "title": "Feedback form not working",
-      "description": "Submit button on feedback form does nothing.",
+      "description": "User submitted feedback through the in-app form, but the 'Submit' button appears unresponsive. There is no confirmation or success message, and the form fields remain filled. This may be a frontend JS issue or API endpoint failure.",
       "customer": "Raj Mehta",
       "priority": "Low Priority",
       "status": "Open",
@@ -165,7 +165,7 @@
     {
       "id": "CSZ-1019",
       "title": "Email notifications too frequent",
-      "description": "Customer getting multiple emails per day for the same event.",
+      "description": "Customer is receiving repetitive notification emails multiple times a day for the same event (e.g., comment replies, order status). This leads to inbox clutter and frustration. Likely tied to a notification system loop or missed de-duplication logic.",
       "customer": "Sofia Bell",
       "priority": "Low Priority",
       "status": "Closed",
@@ -174,7 +174,7 @@
     {
       "id": "CSZ-1020",
       "title": "Promo code not applied",
-      "description": "Discount code not reducing cart total as expected.",
+      "description": "Customer entered a valid promotional code during checkout, but the discount was not reflected in the cart total. The code was confirmed to be active and within the usage period. Possibly due to conflicting cart conditions or promo rule misconfiguration.",
       "customer": "Thomas Reed",
       "priority": "Medium Priority",
       "status": "Open",
