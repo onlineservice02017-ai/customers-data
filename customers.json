@@ -1,4 +1,4 @@
-[
+{"issues":[
   {
     "id": "CSZ-1001",
     "title": "Login issue on mobile app",
@@ -180,3 +180,4 @@
     "createdAt": "2025-09-06"
   }
 ]
+}
